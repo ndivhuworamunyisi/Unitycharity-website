@@ -1,0 +1,80 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Main content area styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About Us section styles */
+.about-us {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Team member styles */
+.team-member {
+    margin: 20px 0;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Apply additional styles for images, buttons, links, and other elements as needed */
+
+/* Responsive design - adjust styles for smaller screens */
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+}
